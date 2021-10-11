@@ -9,8 +9,8 @@
   margin-left: -200px;
   border-radius: 2px;
   box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
-  background: #1A2238;
-  color: #394568;
+  background: linear-gradient(to top right,  #a2b4c4, #8ca7ca);
+  color: #1A2238;
   font-family: 'Open Sans', Helvetica, sans-serif;
   font-weight: 300;
   -webkit-font-smoothing: antialiased;
@@ -22,12 +22,12 @@
   position: absolute;
   width: 67px;
   height: 67px;
-  top: 45px;
+  top: 128px;
   left: 55px;
   border-radius: 50px;
-  background: #F6EDBD;
+  background: linear-gradient(to top right,  #e7a71d, #f38328);
   overflow: hidden;
-  box-shadow: 0 0 10px 0 #F6EDBD;
+  box-shadow: 0 0 55px 0 #e98b73;
   -webkit-animation: rise 1s ease-out;
           animation: rise 1s ease-out;
 }
@@ -90,19 +90,19 @@
   z-index: 2;
   width: 337px;
   height: 281px;
-  top: 201px;
+  top: 165px;
   left: -57px;
-  background: #26314F;
+  background: #026b1c;
   border-radius: 50%;
 }
 
 .hill-bg-2 {
-  top: 197px;
+  top: 175px;
   left: 177px;
 }
 
 .hill-fg-1, .hill-fg-2, .hill-fg-3 {
-  background: #303C5D;
+  background: #053d0e;
   top: 248px;
   left: -137px;
 }
@@ -124,7 +124,8 @@
   height: 90px;
   left: 0px;
   bottom: 0px;
-  background: #fff;
+  background: rgb(224, 218, 156);
+  color: black;
 }
 .front .temperature {
   float: left;
@@ -162,7 +163,7 @@
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background: #7FC1F9;
+  background: #5794c9;
   -webkit-animation: drop 0.8s linear 0.08s infinite;
           animation: drop 0.8s linear 0.08s infinite;
   -webkit-animation-fill-mode: both;
@@ -178,7 +179,7 @@
   left: 1px;
   width: 6px;
   height: 6px;
-  background: #7FC1F9;
+  background: #67a8e0;
   border-radius: 3px;
 }
 .drop-big-1:after, .drop-medium-1:after, .drop-small-1:after, .drop-medium-2:after, .drop-small-2:after, .drop-medium-3:after, .drop-small-3:after, .drop-medium-4:after, .drop-small-4:after, .drop-medium-5:after, .drop-small-5:after, .drop-medium-6:after, .drop-small-6:after, .drop-medium-7:after, .drop-small-7:after, .drop-medium-8:after, .drop-small-8:after, .drop-medium-9:after, .drop-small-9:after, .drop-medium-10:after, .drop-small-10:after {
@@ -189,7 +190,7 @@
   left: 2px;
   width: 4px;
   height: 10px;
-  background: #7FC1F9;
+  background: #67a8e0;
   border-radius: 50%;
 }
 
